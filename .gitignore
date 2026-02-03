@@ -1,0 +1,13 @@
+# PlatformIO
+.pio
+.pioenvs
+.piolibdeps
+.vscode
+
+# System
+.DS_Store
+Thumbs.db
+
+# C++
+*.o
+*.out
