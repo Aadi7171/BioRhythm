@@ -1,13 +1,21 @@
 # PlatformIO
-.pio
-.pioenvs
-.piolibdeps
-.vscode
+.pio/
+.pioenvs/
+.piolibdeps/
 
-# System
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Build artifacts
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+
+# OS
 .DS_Store
 Thumbs.db
-
-# C++
-*.o
-*.out
